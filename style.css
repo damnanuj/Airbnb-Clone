@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    
+
 }
 
 #uniPadding{
@@ -21,13 +21,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 .logo>a>img{
     width: 90px;
     height: 25px;
 }
-
 .nav{
     display: flex;
     gap: 2rem;
@@ -39,7 +37,6 @@
     font-size: 15px;
     position: relative;
 }
-
 .navLists:before{
     content: "";
     position: absolute;
@@ -53,7 +50,6 @@
 .navLists:hover:before {
     width: 100%;
 }
-
 .navright{
     display: flex;
     gap: 1.5rem;
@@ -72,11 +68,11 @@
 }
 .login{
     background-color: white;
-   padding: 5px 13px;
-   border-radius: 25px;
-   display: flex;
-   gap: 0.5rem;
-   align-items: center;
+    padding: 5px 13px;
+    border-radius: 25px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 
 }
 .fa-bars{
@@ -87,4 +83,99 @@
     color: rgb(89, 89, 89);
     padding: 5px;
     border-radius: 50%;
+}
+
+
+
+/* Banner PArt */
+
+.banner{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+}
+.bannerImg{
+    background-image: url(imgs/BigBanner.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.notSure{
+    bottom: 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.notSure h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+.notSure a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: purple;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+
+/* inspiron section */
+
+.inspiron{
+    /* background-color: red; */
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.cardsContainer{
+    margin-top: 20px;
+    /* background-color: aqua; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+   
+    
+}
+
+.card{
+    /* background-color: pink; */
+    width: 270px;
+    height: 300px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+.card>img{
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.card>div{
+    margin-top: 12px;
+    padding-left: 20px;
+}
+.card h1{
+    color: white;
+    font-size: 22px;
+    font-weight: 350;
+}
+.card span{
+    color: white;
+    font-size: 12px;
 }
