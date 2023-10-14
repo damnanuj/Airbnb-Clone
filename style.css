@@ -7,4 +7,84 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    
+}
+
+#uniPadding{
+    padding: 0 60px 0 60px;
+}
+
+.navbar{
+    background-color: black;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo>a>img{
+    width: 90px;
+    height: 25px;
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+}
+.navLists{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    position: relative;
+}
+
+.navLists:before{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    height: 1px;
+    width: 0;
+    background: white;
+    border-radius: 50px;
+    transition: width 0.3s ease;
+}
+.navLists:hover:before {
+    width: 100%;
+}
+
+.navright{
+    display: flex;
+    gap: 1.5rem;
+    color: white;
+    align-items: center;
+}
+
+.navright>.host{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+.globe{
+    color: white;
+}
+.login{
+    background-color: white;
+   padding: 5px 13px;
+   border-radius: 25px;
+   display: flex;
+   gap: 0.5rem;
+   align-items: center;
+
+}
+.fa-bars{
+    color: rgb(89, 89, 89);
+}
+.fa-user{
+    background-color: rgb(184, 184, 184);
+    color: rgb(89, 89, 89);
+    padding: 5px;
+    border-radius: 50%;
 }
