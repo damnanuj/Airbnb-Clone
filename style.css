@@ -231,10 +231,27 @@
 .giftCards{
     width: 100%;
     /* background-color: red; */
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px
+}
+.giftText{
+    /* background-color: blue; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    justify-content: center;
+}
+.gifth1{
+    width: 200px;
+    /* background-color: red; */
+    font-size: 32px;
+    font-weight: 550;
 }
 .learnMore{
     background-color: black;
@@ -242,4 +259,16 @@
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+.giftImg{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.giftImg >img{
+    width: 800px
+
 }
