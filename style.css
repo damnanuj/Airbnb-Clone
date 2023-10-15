@@ -139,6 +139,10 @@
     width: 100%;
     height: auto;
     margin-bottom: 50px;
+    
+}
+.inspiron h2{
+    font-weight: 500;
 }
 
 .cardsContainer{
@@ -190,10 +194,12 @@
     height: 600px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
-
+.experience h2{
+    font-weight: 500;
+}
 .exCards{
     margin-top: 20px;
     width: 100%;
@@ -218,4 +224,22 @@
     background-image: url(imgs/man.jpg);
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/* giftCards */
+
+.giftCards{
+    width: 100%;
+    /* background-color: red; */
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.learnMore{
+    background-color: black;
+    padding: 7px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
