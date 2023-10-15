@@ -219,11 +219,27 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
+    padding-top: 100px;
+    padding-left: 100px;
 }
 .exCards>div:last-child{
     background-image: url(imgs/man.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.exCards div h1{
+    color: white;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 450;
+
+}
+.exCards div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 /* giftCards */
@@ -271,4 +287,46 @@
 .giftImg >img{
     width: 800px
 
+}
+
+
+
+/* woman */
+
+.woman{
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+.womanImg{
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/woman.jpg);
+   
+    
+}
+.womanImg>div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-left: 50px;
+    justify-content: center;
+}
+.womanImg h1{
+    font-size: 80px;
+    color: white;
+    font-weight: 450;
+
+}
+.whitebtn{
+    padding: 10px 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    border-radius: 5px;
 }
