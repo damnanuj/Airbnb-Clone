@@ -304,17 +304,20 @@
     width: 100%;
     height: 100%;
     background-image: url(imgs/woman.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
    
     
 }
 .womanImg>div{
     width: 50%;
     height: 100%;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
-    gap: 3rem;
     padding-left: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .womanImg h1{
     font-size: 80px;
